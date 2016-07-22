@@ -27,6 +27,7 @@ Complexity:
 expected worst-case time complexity is O(log(N));
 expected worst-case space complexity is O(1).
 */
+
 namespace CodilityProblems
 {
     class BinaryGap
@@ -81,3 +82,5 @@ namespace CodilityProblems
         }
     }
 }
+
+// result: https://codility.com/demo/results/trainingEADK35-V5N/
