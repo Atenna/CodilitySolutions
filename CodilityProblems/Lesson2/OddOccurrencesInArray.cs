@@ -25,11 +25,11 @@ namespace CodilityProblems.Lesson2
     class OddOccurrencesInArray
     {
 
-        public static void Main(string[] args)
-        {
-            int[] A = new[] { 1,1,2 };
-            Solution(A);
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int[] A = new[] { 1,1,2 };
+        //    Solution(A);
+        //}
 
         public static int Solution(int[] A)
         {
