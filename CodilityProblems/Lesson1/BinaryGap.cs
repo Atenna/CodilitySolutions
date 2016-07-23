@@ -32,15 +32,16 @@ namespace CodilityProblems
 {
     class BinaryGap
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Solution(42));
-            Console.WriteLine(Solution(1041));
-            Console.WriteLine(Solution(9));
-            Console.WriteLine(Solution(529));
-            Console.WriteLine(Solution(20));
-            Console.ReadKey();
-        }
+
+        //private static void Main(string[] args)
+        //{
+        //    Console.WriteLine(Solution(42));
+        //    Console.WriteLine(Solution(1041));
+        //    Console.WriteLine(Solution(9));
+        //    Console.WriteLine(Solution(529));
+        //    Console.WriteLine(Solution(20));
+        //    Console.ReadKey();
+        //}
 
         private static int Solution(int decimalNumber)
         {
