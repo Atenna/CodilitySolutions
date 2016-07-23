@@ -30,11 +30,11 @@ namespace CodilityProblems.Lesson2
 {
     public static class CyclicRotation
     {
-        public static void Main(string[] args)
-        {
-            int[] A = new[] {3,8,9,7,6};
-            Solution(A, 3);
-        }
+        //public static void Main(string[] args)
+        //{
+        //    int[] A = new[] {3,8,9,7,6};
+        //    Solution(A, 3);
+        //}
 
         public static int[] Solution(int[] A, int K)
         {
