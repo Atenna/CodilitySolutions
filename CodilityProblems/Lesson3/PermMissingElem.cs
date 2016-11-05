@@ -8,33 +8,37 @@ namespace CodilityProblems.Lesson3
 {
     class PermMissingElem
     {
-        public static void Main(String[] args)
-        {
-            Solution(new[] { 1, 3, 4, 5 });
-        }
+        //public static void Main(String[] args)
+        //{
+        //    Solution(new[] { 2,3,1,5 });
+        //}
 
         public static int Solution(int[] A)
         {
-            int current = -1;
-            int next = -1;
-            int missing = -1;
             Array.Sort(A);
 
-            for(int i = 0; i < A.Length; i++)
+            int missing = -1;
+            int current = -1;
+            int next = -1;
+            if (A.Length == 0 || A[0] != 1)
+            {
+                return 1;
+            }
+            for (int i = 0; i < A.Length; i++)
             {
                 current = A[i];
-                if(A.Length > i)
+                if (i + 1 < A.Length)
                 {
                     next = A[i + 1];
-
-                    if(current+1 != next)
+                    if (current + 1 != next)
                     {
                         missing = current + 1;
                         return missing;
                     }
                 }
             }
-            return 0;
+            return A[A.Length-1] + 1;
         }
     }
 }
+// https://codility.com/demo/results/trainingPNVSTQ-ZRV/

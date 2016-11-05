@@ -49,8 +49,12 @@
     <Compile Include="Lesson3\FrogJmp.cs" />
     <Compile Include="Lesson3\PermMissingElem.cs" />
     <Compile Include="Lesson3\TapeEquilibrium.cs" />
+    <Compile Include="Lesson4\FrogRiverOne.cs" />
+    <Compile Include="Lesson4\MissingInteger.cs" />
+    <Compile Include="Lesson4\PermCheck.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
