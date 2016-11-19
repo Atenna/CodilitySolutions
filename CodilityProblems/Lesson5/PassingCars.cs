@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodilityProblems.Lesson5
+﻿namespace CodilityProblems.Lesson5
 {
     class PassingCars
     {
-        public static void Main()
-        {
-            Solution(new[] {0, 1, 0, 1, 1});
-        }
+        //public static void Main()
+        //{
+        //    Solution(new[] {0, 1, 0, 1, 1});
+        //}
         public static int Solution(int[] A)
         {
             // 0 east ->

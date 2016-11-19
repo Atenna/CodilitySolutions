@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodilityProblems.Lesson5
+﻿namespace CodilityProblems.Lesson5
 {
     class CountDiv
     {
